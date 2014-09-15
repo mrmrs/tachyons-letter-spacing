@@ -13,6 +13,50 @@
   <body>
     <h1>tachyons letter spacing</h1>
     <h2>Examples</h2>
+
+.tracked       { letter-spacing:  .16em; }
+.tracked-tight { letter-spacing: -.1em; }
+.mega-tracked  { letter-spacing:  .3em; }
+  .tracked-ns       { letter-spacing:  .16em; }
+  .tracked-tight-ns { letter-spacing: -.1em; }
+  .mega-tracked-ns  { letter-spacing:  .3em; }
+  .tracked-m       { letter-spacing:  .16em; }
+  .tracked-tight-m { letter-spacing: -.1em; }
+  .mega-tracked-m  { letter-spacing:  .3em; }
+  .tracked-l       { letter-spacing:  .16em; }
+  .tracked-tight-l { letter-spacing: -.1em; }
+  .mega-tracked-l  { letter-spacing:  .3em; }
+    <pre>
+<code>
+/*
+
+   LETTER SPACING
+
+*/
+
+.tracked       { letter-spacing:  .16em; }
+.tracked-tight { letter-spacing: -.1em; }
+.mega-tracked  { letter-spacing:  .3em; }
+
+@include break(not-small) {
+  .tracked-ns       { letter-spacing:  .16em; }
+  .tracked-tight-ns { letter-spacing: -.1em; }
+  .mega-tracked-ns  { letter-spacing:  .3em; }
+}
+
+@include break(medium) {
+  .tracked-m       { letter-spacing:  .16em; }
+  .tracked-tight-m { letter-spacing: -.1em; }
+  .mega-tracked-m  { letter-spacing:  .3em; }
+}
+
+@include break(large) {
+  .tracked-l       { letter-spacing:  .16em; }
+  .tracked-tight-l { letter-spacing: -.1em; }
+  .mega-tracked-l  { letter-spacing:  .3em; }
+}
+</code>
+</pre>
     <a href="http://npmjs.org/package/tachyons-letter-spacing" title="tachyons-letter-spacing">View package on npm</a>
   </body>
 </html>
