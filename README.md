@@ -8,6 +8,38 @@ npm install --save-dev tachyons-letter-spacing
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/*
+
+   LETTER SPACING
+
+*/
+
+.tracked       { letter-spacing:  .16em; }
+.tracked-tight { letter-spacing: -.1em; }
+.mega-tracked  { letter-spacing:  .3em; }
+
+@include break(not-small) {
+  .tracked-ns       { letter-spacing:  .16em; }
+  .tracked-tight-ns { letter-spacing: -.1em; }
+  .mega-tracked-ns  { letter-spacing:  .3em; }
+}
+
+@include break(medium) {
+  .tracked-m       { letter-spacing:  .16em; }
+  .tracked-tight-m { letter-spacing: -.1em; }
+  .mega-tracked-m  { letter-spacing:  .3em; }
+}
+
+@include break(large) {
+  .tracked-l       { letter-spacing:  .16em; }
+  .tracked-tight-l { letter-spacing: -.1em; }
+  .mega-tracked-l  { letter-spacing:  .3em; }
+}
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
