@@ -11,8 +11,8 @@ var gulp = require('gulp'),
 
 // Task that compiles scss files down to good old css
 gulp.task('pre-process', function(){
-  gulp.src('./letter-spacing.scss')
-      .pipe(watch('./letter-spacing.scss', function(files) {
+  gulp.src('./letter_spacing.scss')
+      .pipe(watch('./letter_spacing.scss', function(files) {
         return files.pipe(sass())
           .pipe(size({gzip: false, showFiles: true, title:'un-prefixed css'}))
           .pipe(size({gzip: true, showFiles: true, title:'un-prefixed gzipped css'}))
@@ -21,7 +21,7 @@ gulp.task('pre-process', function(){
           .pipe(size({gzip: true, showFiles: true, title:'prefixed css'}))
           .pipe(gulp.dest('./'))
           .pipe(minifyCSS())
-          .pipe(rename('letter-spacing.min.css'))
+          .pipe(rename('letter_spacing.min.css'))
           .pipe(gulp.dest('./'))
           .pipe(size({gzip: false, showFiles: true, title:'minified css'}))
           .pipe(size({gzip: true, showFiles: true, title:'minified css'}))
