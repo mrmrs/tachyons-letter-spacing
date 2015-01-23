@@ -1,12 +1,12 @@
 {
   "name": "tachyons-letter-spacing",
   "version": "0.3.0",
-  "style": "letter_spacing.css",
+  "style": "tachyons-letter-spacing.css",
   "homepage": "http://mrmrs.io/tachyons-letter-spacing",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",
