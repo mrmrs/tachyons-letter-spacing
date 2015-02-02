@@ -2,7 +2,7 @@
   "name": "tachyons-letter-spacing",
   "version": "1.0.0",
   "style": "tachyons-letter-spacing.css",
-  "homepage": "http://mrmrs.io/tachyons-letter-spacing",
+  "homepage": "http://github.com/mrmrs/tachyons-letter-spacing",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
