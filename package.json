@@ -1,6 +1,6 @@
 {
   "name": "tachyons-letter-spacing",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "style": "tachyons-letter-spacing.css",
   "homepage": "http://github.com/mrmrs/tachyons-letter-spacing",
   "description": "Performance based css module.",
