@@ -1,45 +1,22 @@
-# TACHYONS-LETTER-SPACING
+# <%= module.name %>
+<%= module.version %>
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-letter-spacing
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-
-/*
-
-   LETTER SPACING
-
-*/
-
-.tracked       { letter-spacing:  .16em; }
-.tracked-tight { letter-spacing: -.1em; }
-.mega-tracked  { letter-spacing:  .3em; }
-
-@include break(not-small) {
-  .tracked-ns       { letter-spacing:  .16em; }
-  .tracked-tight-ns { letter-spacing: -.1em; }
-  .mega-tracked-ns  { letter-spacing:  .3em; }
-}
-
-@include break(medium) {
-  .tracked-m       { letter-spacing:  .16em; }
-  .tracked-tight-m { letter-spacing: -.1em; }
-  .mega-tracked-m  { letter-spacing:  .3em; }
-}
-
-@include break(large) {
-  .tracked-l       { letter-spacing:  .16em; }
-  .tracked-tight-l { letter-spacing: -.1em; }
-  .mega-tracked-l  { letter-spacing:  .3em; }
-}
+<%= srcCSS %>
 ```
 
 ## Author

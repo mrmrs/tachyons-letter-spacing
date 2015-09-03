@@ -1,18 +1,21 @@
-# TACHYONS-LETTER-SPACING
+# tachyons-letter-spacing
+1.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+Performance based css module.
 
 ## Install
 ```
 npm install --save-dev tachyons-letter-spacing
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-letter-spacing
+```
 
 ## The Code
 ```
-
 /*
 
    LETTER SPACING
@@ -20,26 +23,27 @@ or download the css on github and include in your project.
 */
 
 .tracked       { letter-spacing:  .16em; }
-.tracked-tight { letter-spacing: -.1em; }
-.mega-tracked  { letter-spacing:  .3em; }
+.tracked-tight { letter-spacing: -.05em; }
+.tracked-mega  { letter-spacing:  .3em; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .tracked-ns       { letter-spacing:  .16em; }
   .tracked-tight-ns { letter-spacing: -.1em; }
-  .mega-tracked-ns  { letter-spacing:  .3em; }
+  .tracked-mega-ns  { letter-spacing:  .3em; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .tracked-m       { letter-spacing:  .16em; }
   .tracked-tight-m { letter-spacing: -.1em; }
-  .mega-tracked-m  { letter-spacing:  .3em; }
+  .tracked-mega-m  { letter-spacing:  .3em; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em) {
   .tracked-l       { letter-spacing:  .16em; }
   .tracked-tight-l { letter-spacing: -.1em; }
-  .mega-tracked-l  { letter-spacing:  .3em; }
+  .tracked-mega-l  { letter-spacing:  .3em; }
 }
+
 ```
 
 ## Author
