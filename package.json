@@ -2,15 +2,15 @@
   "name": "tachyons-letter-spacing",
   "version": "2.0.1",
   "style": "tachyons-letter-spacing.css",
-  "homepage": "http://github.com/mrmrs/tachyons-letter-spacing",
+  "homepage": "http://github.com/tachyons-css/tachyons-letter-spacing",
   "description": "Performance based css module.",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-letter-spacing.git"
+    "url": "http://github.com/tachyons-css/tachyons-letter-spacing.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-letter-spacing/issues",
+    "url": "https://github.com/tachyons-css/tachyons-letter-spacing/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
