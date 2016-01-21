@@ -1,4 +1,4 @@
-# tachyons-letter-spacing 1.1.0
+# tachyons-letter-spacing 2.0.3
 
 Performance based css module.
 
