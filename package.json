@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^0.3.1"
+    "tachyons-cli": "^0.3.3"
   },
   "scripts": {
     "start": "tachyons src/tachyons-letter-spacing.css > css/tachyons-letter-spacing.css && tachyons src/tachyons-letter-spacing.css --minify > css/tachyons-letter-spacing.min.css && tachyons src/tachyons-letter-spacing.css --generate-docs --package=../../package.json > readme.md"
