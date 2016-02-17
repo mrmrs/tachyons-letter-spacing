@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-198 | 12 | 12
+199 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -62,22 +62,22 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
 */
 .tracked { letter-spacing: .16em; }
-.tracked-tight { letter-spacing: -.05em; }
-.tracked-mega { letter-spacing: .3em; }
+.tracked-tight { letter-spacing: -.08em; }
+.tracked-mega { letter-spacing: .32em; }
 @media screen and (min-width: 48em) {
  .tracked-ns { letter-spacing: .16em; }
- .tracked-tight-ns { letter-spacing: -.1em; }
- .tracked-mega-ns { letter-spacing: .3em; }
+ .tracked-tight-ns { letter-spacing: -.08em; }
+ .tracked-mega-ns { letter-spacing: .32em; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .tracked-m { letter-spacing: .16em; }
- .tracked-tight-m { letter-spacing: -.1em; }
- .tracked-mega-m { letter-spacing: .3em; }
+ .tracked-tight-m { letter-spacing: -.08em; }
+ .tracked-mega-m { letter-spacing: .32em; }
 }
 @media screen and (min-width: 64em) {
  .tracked-l { letter-spacing: .16em; }
- .tracked-tight-l { letter-spacing: -.1em; }
- .tracked-mega-l { letter-spacing: .3em; }
+ .tracked-tight-l { letter-spacing: -.08em; }
+ .tracked-mega-l { letter-spacing: .32em; }
 }
 ```
 
